@@ -39,7 +39,3 @@ jobs:
   steps:
   - script: echo Job3!
     displayName: 'Run a one-line script'
-  - task: VisualStudioTestPlatformInstaller@1
-    inputs:
-      packageFeedSelector: 'nugetOrg'
-      versionSelector: 'latestPreRelease'
